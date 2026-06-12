@@ -1,0 +1,46 @@
+2026-06-12 16:23:31.026 [info] [main] Log level: Info
+2026-06-12 16:23:31.026 [info] [main] Validating found git in: "git"
+2026-06-12 16:23:31.026 [info] [main] Using git "2.54.0" from "git"
+2026-06-12 16:23:31.026 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-12 16:23:31.026 [info] > git rev-parse --show-toplevel [80ms]
+2026-06-12 16:23:31.026 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [15ms]
+2026-06-12 16:23:39.611 [info] [Model][openRepository] Opened repository (path): /home/skidxql/rofi
+2026-06-12 16:23:39.611 [info] [Model][openRepository] Opened repository (real path): /home/skidxql/rofi
+2026-06-12 16:23:39.611 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-12 16:23:39.673 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-12 16:23:40.500 [info] > git config --get --local core.virtualfilesystem [846ms]
+2026-06-12 16:23:40.500 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-12 16:23:41.337 [info] > git config --get commit.template [872ms]
+2026-06-12 16:23:43.439 [info] > git check-ignore -v -z --stdin [2066ms]
+2026-06-12 16:23:43.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [505ms]
+2026-06-12 16:23:43.968 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/skidxql/rofi/.git/refs/remotes/origin/master'
+2026-06-12 16:23:44.033 [info] > git rev-parse refs/remotes/origin/master [66ms]
+2026-06-12 16:23:44.748 [info] > git status -z -uall [674ms]
+2026-06-12 16:23:44.751 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [636ms]
+2026-06-12 16:23:50.956 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [692ms]
+2026-06-12 16:23:51.090 [info] > git config --get --local branch.master.vscode-merge-base [93ms]
+2026-06-12 16:23:51.134 [info] > git config --get commit.template [241ms]
+2026-06-12 16:23:51.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [61ms]
+2026-06-12 16:23:51.348 [info] > git merge-base refs/heads/master refs/remotes/origin/master [111ms]
+2026-06-12 16:23:51.585 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 512a585fff6da5b2a90e5948059b062516ddb2e7...refs/remotes/origin/master -- [191ms]
+2026-06-12 16:23:51.587 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [289ms]
+2026-06-12 16:23:51.637 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/skidxql/rofi/.git/refs/remotes/origin/master'
+2026-06-12 16:23:51.645 [info] > git rev-parse refs/remotes/origin/master [8ms]
+2026-06-12 16:23:51.734 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-06-12 16:23:52.218 [info] > git status -z -uall [534ms]
+2026-06-12 16:23:53.564 [info] > git config --get commit.template [70ms]
+2026-06-12 16:23:53.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [37ms]
+2026-06-12 16:23:53.742 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/skidxql/rofi/.git/refs/remotes/origin/master'
+2026-06-12 16:23:53.768 [info] > git rev-parse refs/remotes/origin/master [26ms]
+2026-06-12 16:23:53.859 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2026-06-12 16:23:54.332 [info] > git status -z -uall [523ms]
+2026-06-12 16:24:41.306 [info] > git config --get commit.template [52ms]
+2026-06-12 16:24:41.309 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2026-06-12 16:24:41.353 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/skidxql/rofi/.git/refs/remotes/origin/master'
+2026-06-12 16:24:41.359 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2026-06-12 16:24:41.461 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-06-12 16:24:41.911 [info] > git status -z -uall [506ms]
+2026-06-12 16:25:13.270 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/skidxql/rofi/.git/HEAD'
+2026-06-12 16:25:13.350 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/skidxql/rofi/.git/config'
+2026-06-12 16:25:13.452 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/skidxql/rofi/.git/HEAD'
+2026-06-12 16:25:13.537 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/skidxql/rofi/.git/config'

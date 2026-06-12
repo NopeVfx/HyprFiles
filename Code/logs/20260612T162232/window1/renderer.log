@@ -1,0 +1,20 @@
+2026-06-12 16:22:37.085 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 22ms.
+2026-06-12 16:22:37.404 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 30ms.
+2026-06-12 16:22:39.127 [info] Started local extension host with pid 698466.
+2026-06-12 16:22:42.230 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-12 16:22:47.356 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-12 16:22:47.662 [info] Extension host (LocalProcess pid: 698466) is unresponsive.
+2026-06-12 16:22:47.810 [info] [perf] Render performance baseline is 115ms
+2026-06-12 16:22:49.523 [error] [Extension Host] (node:698466) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-06-12 16:22:50.299 [info] Extension host (LocalProcess pid: 698466) is responsive.
+2026-06-12 16:22:50.610 [info] Settings Sync: Account status changed from uninitialized to available
+2026-06-12 16:22:55.133 [error] Error fetching chat session input state Canceled
+2026-06-12 16:22:55.134 [error] Error fetching chat session options Canceled
+2026-06-12 16:22:55.135 [error] Error fetching chat session input state Canceled
+2026-06-12 16:22:55.136 [error] Error fetching chat session options Canceled
+2026-06-12 16:22:55.137 [error] Error fetching chat session input state Canceled
+2026-06-12 16:22:55.137 [error] Error fetching chat session options Canceled
+2026-06-12 16:22:55.146 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-06-12 16:22:55.146 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-06-12 16:22:55.147 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

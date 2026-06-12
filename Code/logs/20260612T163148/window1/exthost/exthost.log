@@ -1,0 +1,7 @@
+2026-06-12 16:31:57.016 [info] Extension host with pid 713496 started
+2026-06-12 16:31:57.485 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-12 16:31:57.603 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-12 16:31:58.117 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-06-12 16:31:58.693 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-12 16:31:58.802 [info] Extension host terminating: received terminate message from renderer
+2026-06-12 16:31:58.816 [info] Extension host with pid 713496 exiting with code 0

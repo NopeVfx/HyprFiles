@@ -1,0 +1,12 @@
+{
+    "discordBranch": "canary",
+    "minimizeToTray": true,
+    "arRPC": true,
+    "hardwareVideoAcceleration": true,
+    "staticTitle": true,
+    "splashPixelated": false,
+    "enableTaskbarFlashing": false,
+    "openLinksWithElectron": false,
+    "splashColor": "rgb(220, 220, 223)",
+    "splashBackground": "rgb(0, 0, 0)"
+}

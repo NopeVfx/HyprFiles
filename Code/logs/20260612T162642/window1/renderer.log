@@ -1,0 +1,35 @@
+2026-06-12 16:26:46.745 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 21ms.
+2026-06-12 16:26:47.065 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 30ms.
+2026-06-12 16:26:48.727 [info] Started local extension host with pid 706665.
+2026-06-12 16:26:51.904 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-12 16:26:56.932 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-12 16:26:57.225 [info] [perf] Render performance baseline is 112ms
+2026-06-12 16:26:57.609 [info] Extension host (LocalProcess pid: 706665) is unresponsive.
+2026-06-12 16:27:00.255 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-06-12 16:27:00.256 [error] Canceled: Canceled
+    at Ay (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:411:1431)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5121:47399
+    at Array.forEach (<anonymous>)
+    at a.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5121:47307)
+    at Lz.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5121:60606)
+    at c3i.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5128:10470)
+    at a3i.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5128:9610)
+    at async xvt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5127:22900)
+2026-06-12 16:27:00.257 [error] Canceled: Canceled
+    at Ay (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:411:1431)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5121:47399
+    at Array.forEach (<anonymous>)
+    at a.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5121:47307)
+    at Lz.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5121:60606)
+    at c3i.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5128:10470)
+    at a3i.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5128:9610)
+    at async xvt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5127:22900)
+2026-06-12 16:27:00.258 [error] Canceled: Canceled
+    at Ay (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:411:1431)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5121:47399
+    at Array.forEach (<anonymous>)
+    at a.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5121:47307)
+    at Lz.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5121:60606)
+    at c3i.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5128:10470)
+    at a3i.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5128:9610)
+    at async xvt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5127:22900)

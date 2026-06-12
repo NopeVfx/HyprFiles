@@ -1,0 +1,19 @@
+2026-06-12 16:33:37.744 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 22ms.
+2026-06-12 16:33:38.059 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 29ms.
+2026-06-12 16:33:39.766 [info] Started local extension host with pid 715705.
+2026-06-12 16:33:43.597 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-12 16:33:48.627 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-12 16:33:48.972 [info] [perf] Render performance baseline is 118ms
+2026-06-12 16:33:50.165 [info] Extension host (LocalProcess pid: 715705) is unresponsive.
+2026-06-12 16:33:53.168 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-06-12 16:33:54.081 [error] [Extension Host] (node:715705) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-06-12 16:33:55.233 [info] Extension host (LocalProcess pid: 715705) is responsive.
+2026-06-12 16:33:55.235 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-06-12 16:33:55.727 [info] Settings Sync: Account status changed from uninitialized to available
+2026-06-12 16:33:55.920 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 35.842553131949224% of 742.881ms, saved PROFILE here: 'file:///tmp/exthost-cdd10e.cpuprofile'
+2026-06-12 16:34:06.416 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-12 16:34:07.253 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-12 16:34:08.445 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-06-12 16:34:08.446 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-06-12 16:34:08.446 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

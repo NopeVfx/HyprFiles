@@ -1,0 +1,25 @@
+2026-06-12 16:23:23.860 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 24ms.
+2026-06-12 16:23:24.166 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 29ms.
+2026-06-12 16:23:25.722 [info] Started local extension host with pid 701001.
+2026-06-12 16:23:29.143 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-12 16:23:33.929 [info] [perf] Render performance baseline is 109ms
+2026-06-12 16:23:34.146 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-12 16:23:34.516 [info] Extension host (LocalProcess pid: 701001) is unresponsive.
+2026-06-12 16:23:37.189 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-06-12 16:23:38.352 [error] [Extension Host] (node:701001) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-06-12 16:23:40.030 [info] Extension host (LocalProcess pid: 701001) is responsive.
+2026-06-12 16:23:40.031 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-06-12 16:23:40.292 [info] Settings Sync: Account status changed from uninitialized to available
+2026-06-12 16:23:41.058 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 39.27141720384067% of 1120.798ms, saved PROFILE here: 'file:///tmp/exthost-120516.cpuprofile'
+2026-06-12 16:23:47.480 [info] Extension host (LocalProcess pid: 701001) is unresponsive.
+2026-06-12 16:23:49.959 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-06-12 16:23:50.329 [info] Extension host (LocalProcess pid: 701001) is responsive.
+2026-06-12 16:23:50.330 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-06-12 16:23:50.964 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 59.88907167288103% of 225.35ms, saved PROFILE here: 'file:///tmp/exthost-80ba13.cpuprofile'
+2026-06-12 16:23:54.019 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-12 16:23:59.944 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-06-12 16:25:12.231 [warning] [File Watcher ('parcel')] Watcher shutdown because watched path got deleted (path: /home/skidxql/rofi)
+2026-06-12 16:25:15.937 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-06-12 16:25:15.938 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-06-12 16:25:15.939 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

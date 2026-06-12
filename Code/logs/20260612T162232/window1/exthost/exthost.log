@@ -1,0 +1,42 @@
+2026-06-12 16:22:41.685 [info] Extension host with pid 698466 started
+2026-06-12 16:22:42.151 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-12 16:22:42.277 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-12 16:22:43.445 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-12 16:22:43.892 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-12 16:22:44.121 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-12 16:22:44.479 [info] Eager extensions activated
+2026-06-12 16:22:44.589 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:49.520 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:49.529 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:49.604 [info] ExtensionService#_doActivateExtension AndreiLucaci.everforest-pro, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:49.634 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:49.807 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:49.812 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:49.857 [info] ExtensionService#_doActivateExtension inferrinizzard.prettier-sql-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:49.920 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:49.941 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:49.964 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2026-06-12 16:22:51.838 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-06-12 16:22:52.931 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-06-12 16:22:52.965 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-06-12 16:22:53.290 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-06-12 16:22:58.169 [info] Extension host terminating: received terminate message from renderer
+2026-06-12 16:22:58.337 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new nx (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:151817)
+	at i._remoteCall (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:157869)
+	at r.<computed>.s.charCodeAt.r.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:154664)
+	at ug.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:533:81609)
+	at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:675:24976)
+	at useProxySettings (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:208:16)
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:145:13
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:1054:13 
+2026-06-12 16:22:58.337 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new nx (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:151817)
+	at i._remoteCall (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:157869)
+	at r.<computed>.s.charCodeAt.r.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:154664)
+	at ug.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:533:81609)
+	at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:675:24976)
+	at useProxySettings (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:208:16)
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:145:13
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:1054:13 
+2026-06-12 16:22:58.466 [info] Extension host with pid 698466 exiting with code 0

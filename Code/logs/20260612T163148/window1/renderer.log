@@ -1,0 +1,5 @@
+2026-06-12 16:31:52.463 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 22ms.
+2026-06-12 16:31:52.791 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 30ms.
+2026-06-12 16:31:54.402 [info] Started local extension host with pid 713496.
+2026-06-12 16:31:57.703 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-12 16:31:58.753 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled

@@ -1,0 +1,13 @@
+{
+    "editor.disableMonospaceOptimizations": true,
+    "chat.viewSessions.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.productIconTheme": "lucide-icons",
+    "explorer.confirmDelete": false,
+    "[lua]": {
+        "editor.defaultFormatter": "trixnz.vscode-lua"
+    },
+    "window.confirmSaveUntitledWorkspace": false
+}

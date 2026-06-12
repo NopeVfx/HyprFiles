@@ -1,0 +1,35 @@
+@import "tokens/colors.css";
+@import "tokens/state.css";
+@import "tokens/workspace.css";
+@import "tokens/widget.css";
+@import "tokens/batt-clock.css";
+@import "tokens/slider.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  min-height: 0px;
+  border: none;
+  border-radius: 0;
+  font-family: "Maple Mono";
+}
+
+window#waybar {
+  background: transparent;
+}
+
+#custom-vesktop {
+  min-width: 28px;
+  background-image: url("file:///run/user/1000/doc/b5f2396/vesktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 18px;
+}
+
+#custom-browser {
+  min-width: 28px;
+  background-image: url("file:///run/user/1000/doc/73433401/zen-browser.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 18px;
+}

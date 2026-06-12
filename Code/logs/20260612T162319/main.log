@@ -1,0 +1,8 @@
+2026-06-12 16:23:20.022 [info] StorageMainService: creating application shared storage
+2026-06-12 16:23:20.334 [info] [shared storage] Creating shared storage database at '/home/skidxql/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-12 16:23:20.337 [info] [shared storage] Initializing fallback application storage (path: /home/skidxql/.config/Code/User/globalStorage/state.vscdb)
+2026-06-12 16:23:20.371 [info] [shared storage] Fallback application storage initialized with 146 items
+2026-06-12 16:23:20.381 [info] update#setState idle
+2026-06-12 16:23:50.384 [info] update#setState checking for updates
+2026-06-12 16:23:50.599 [info] update#setState idle
+2026-06-12 16:25:16.022 [info] Extension host with pid 701001 exited with code: 0, signal: unknown.

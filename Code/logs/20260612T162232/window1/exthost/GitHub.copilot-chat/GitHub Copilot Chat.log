@@ -1,0 +1,34 @@
+2026-06-12 16:22:57.586 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-06-12 16:22:57.586 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-06-12 16:22:57.586 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-06-12 16:22:57.586 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-06-12 16:22:57.586 [info] Using the Electron fetcher.
+2026-06-12 16:22:57.586 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-06-12 16:22:57.586 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-06-12 16:22:57.586 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-06-12 16:22:57.587 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-06-12 16:22:57.587 [info] BYOK: fetching known models list
+2026-06-12 16:22:57.587 [info] activationBlocker from 'languageModelAccess' took for 209ms
+2026-06-12 16:22:57.587 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-06-12 16:22:57.587 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-06-12 16:22:57.996 [info] [CopilotCLIChatSessionContentProvider] listSessions took 478.06372700000065ms
+2026-06-12 16:22:58.296 [warning] ConversationFeature: failed to query language models: Canceled: Canceled
+2026-06-12 16:22:58.297 [warning] [ByokUtilityModelNotification] Failed to query language models: Canceled: Canceled
+2026-06-12 16:22:58.335 [error] Canceled: Canceled
+	at na (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:411:1546)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:153474
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:153382)
+	at SP.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:538:12328)
+	at i.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:540:1072)
+	at Js (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:837:11733)
+	at up.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:837:9880)
+	at E._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ls.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:837:8115)
+	at MessagePortMain.emit (node:events:509:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2934)
+2026-06-12 16:22:58.335 [error] [CopilotCLIAgents] Failed to fetch custom agents: Canceled: Canceled
+2026-06-12 16:22:58.347 [error] GitHub Copilot could not connect to server. Extension activation failed: "Canceled"
+2026-06-12 16:22:58.347 [info] [context keys] Setting context key: github.copilot.offline

@@ -1,0 +1,45 @@
+/* Everforest Dark (medium)
+ * bg_dim  #1e2326   bg0  #272e33   bg1  #2e383c
+ * bg2     #374145   bg3  #414b50   bg4  #495156
+ * fg      #d3c6aa   red  #e67e80   green #a7c080
+ * aqua    #83c092   blue #7fbbb3   grey0 #7a8478
+ * grey2   #9da9a0
+ */
+
+* {
+  --bg-panel: rgba(39, 46, 51, 0.40);       /* bg0 */
+  --bg-widget: rgba(46, 56, 60, 0.75);      /* bg1 */
+
+  --bg-tile: rgba(30, 35, 38, 0.70);        /* bg_dim */
+  --bg-tile-hover: rgba(55, 65, 69, 0.88);  /* bg2 */
+
+  --bg-critical: rgba(45, 15, 16, 0.82);    /* bg_dim + red tint */
+  --bg-critical-hover: rgba(65, 20, 22, 0.92);
+
+  --border-critical: rgba(230, 126, 128, 0.55); /* red */
+  --shadow-critical: rgba(230, 126, 128, 0.35);
+
+  --btn-on: rgba(167, 192, 128, 1);         /* green */
+  --btn-off: rgba(157, 169, 160, 0.50);     /* grey2 */
+
+  --accent: #83c092;                         /* aqua */
+  --accent-dim: rgba(131, 192, 146, 0.18);
+  --hover-dim: rgba(73, 81, 86, 1);          /* bg4 */
+
+  --border-subtle: rgba(131, 192, 146, 0.12);
+  --border-glass: rgba(157, 169, 160, 0.16); /* grey2 */
+
+  --text-primary: rgba(211, 198, 170, 0.85); /* fg */
+  --text-secondary: rgba(211, 198, 170, 0.50);
+
+  --text-dim: rgba(122, 132, 120, 0.55);     /* grey0 */
+  --text-hover: rgba(211, 198, 170, 1);
+
+  --radius-panel: 20px;
+  --radius-widget: 10px;
+  --radius-tile: 12px;
+  --radius-btn: 8px;
+
+  --t-fast: 150ms ease;
+  --t-mid: 220ms ease;
+}

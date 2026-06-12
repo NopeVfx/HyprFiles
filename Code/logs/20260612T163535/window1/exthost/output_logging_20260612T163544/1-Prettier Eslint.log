@@ -1,0 +1,23 @@
+Error: Could not warm up worker. Formatting a file for the first time may take longer than usual.
+Message: Cannot find module 'prettier-eslint'
+Require stack:
+- /home/skidxql/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+Stacktrace: Error: Cannot find module 'prettier-eslint'
+Require stack:
+- /home/skidxql/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1483:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16314)
+	at n._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:683:29133)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1056:27)
+	at defaultResolve (node:internal/modules/cjs/loader:1131:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:686:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1144:25)
+	at require.resolve (node:internal/modules/helpers:171:31)
+	at Ve (/home/skidxql/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:1:12704)
+	at Zt (/home/skidxql/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:2:487)
+	at /home/skidxql/.vscode/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:2:718

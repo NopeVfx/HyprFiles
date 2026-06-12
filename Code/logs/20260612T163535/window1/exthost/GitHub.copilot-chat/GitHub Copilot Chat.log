@@ -1,0 +1,38 @@
+2026-06-12 16:35:59.544 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-06-12 16:35:59.544 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-06-12 16:35:59.544 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-06-12 16:35:59.544 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-06-12 16:35:59.544 [info] Using the Electron fetcher.
+2026-06-12 16:35:59.938 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-06-12 16:35:59.940 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-06-12 16:35:59.940 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-06-12 16:35:59.942 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-06-12 16:35:59.942 [info] BYOK: fetching known models list
+2026-06-12 16:35:59.945 [info] activationBlocker from 'languageModelAccess' took for 204ms
+2026-06-12 16:36:05.671 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-06-12 16:36:05.933 [info] [CopilotCLIChatSessionContentProvider] listSessions took 288.67866800000047ms
+2026-06-12 16:36:06.004 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-06-12 16:36:06.009 [info] [CopilotCLIChatSessionContentProvider] listSessions took 38.28192599999966ms
+2026-06-12 16:36:06.022 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-06-12 16:36:06.062 [info] [CopilotCLI] MCP server started. Lock file: /home/skidxql/.local/state/.copilot/ide/5ba21983-b670-407b-ae72-b1a0e95378b1.lock
+2026-06-12 16:36:06.062 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-11LHmw/mcp.sock#%2Fmcp
+2026-06-12 16:36:06.079 [info] Logged in as NopeVfx
+2026-06-12 16:36:06.528 [info] Got Copilot token for NopeVfx
+2026-06-12 16:36:06.528 [info] Copilot Chat: 0.52.0, VS Code: 1.124.0
+2026-06-12 16:36:06.646 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-06-12 16:36:06.867 [info] Fetched model metadata in 7074ms 06af3829-6006-451c-b2cc-5f1c977f0d09
+2026-06-12 16:36:07.041 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-06-12 16:36:07.041 [info] copilot token sku: free_limited_copilot
+2026-06-12 16:36:07.041 [info] ConversationFeature: Activating contributions
+2026-06-12 16:36:07.041 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-06-12 16:36:07.126 [info] Registering default platform agent...
+2026-06-12 16:36:07.181 [info] activationBlocker from 'conversationFeature' took for 7441ms
+2026-06-12 16:36:07.210 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-06-12 16:36:07.220 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-06-12 16:36:07.467 [info] Latest entry: ccreq:latest.copilotmd
+2026-06-12 16:36:07.470 [info] ccreq:bc7af0b4.copilotmd | markdown
+2026-06-12 16:36:07.723 [info] Fetched model metadata in 194ms ebf9ba75-113d-4fc0-8f5e-27525c043d6c
+2026-06-12 16:36:07.750 [info] ccreq:5d3334a2.copilotmd | markdown
+2026-06-12 16:36:07.982 [info] ConversationFeature: BYOK models available
+2026-06-12 16:36:07.982 [info] copilot token sku: free_limited_copilot
+2026-06-12 16:36:08.158 [error] [GitHubOrgChatResourcesService] Error getting user organizations: PermissiveAuthRequiredError: Permissive authentication is required
